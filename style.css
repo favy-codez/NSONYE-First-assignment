@@ -328,8 +328,36 @@ h2{
     }
     
     @media screen and (max-width: 414px) {
-        
+        .hero-section{
+            padding: 1rem 0 8px 0;
+            height: 80vh;
+        }
+        .hero-text1{
+            width: 300px;
+        }
     }
     @media screen and (max-width: 280px) {
-        
+        .nav{
+            padding: 14px 1rem;
+        }
+        .hero-text1{
+            display: none;
+        }
+        .hero-section h1{
+            display: none;
+        }
+        .check-sec{
+            display: none;
+        }
+        input[type=text]{
+            width: 90%;
+            border-radius: 15px;
+        }
+        ::placeholder{
+            font-size: 16px;
+        }
+        /* .image-sec{
+            display: flex;
+            flex-direction: column;
+        } */
     }
