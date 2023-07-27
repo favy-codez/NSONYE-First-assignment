@@ -85,9 +85,16 @@ ul li{
 } 
 
 input[type=text] {
+    
+        background-color: white;
+        background-image: url('./IMAGES/search-line.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+     
+
     width: 30%;
-    padding: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     transition: width 0.4s ease-in-out;
     background-color: transparent;
@@ -104,4 +111,13 @@ input[type=text]:focus {
 
 ::placeholder{
     color: #fff;
+}
+
+.star-sec{
+    display: flex;
+    gap: 5px;
+}
+
+#star-img{
+    width: 25px;
 }
