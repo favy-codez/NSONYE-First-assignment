@@ -176,3 +176,7 @@ h2{
     justify-content: space-between;
 }
 
+/* MEDIA QUERY */
+@media screen and (max-width: 992px) {
+    
+}
