@@ -49,21 +49,59 @@ ul li{
 }
 
 .hero-section h1{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
+.hero-text1{
+    font-weight: 380;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 0 0;
+}
+
 #check{
-    width: 20px;
+    width: 25px;
 }
 
 .check-sec{
     display: flex;
+    width: 60%;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px 0;
 }
 
 .check1{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.check1 p{
+    font-size: 16px;
+    font-weight: 390;
+} 
+
+input[type=text] {
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    transition: width 0.4s ease-in-out;
+    background-color: transparent;
+    border: #fff 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+  
+input[type=text]:focus {
+    border: none;
+    border: #fff 2px solid;
+}
+
+
+::placeholder{
+    color: #fff;
 }
