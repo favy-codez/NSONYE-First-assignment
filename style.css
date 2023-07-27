@@ -26,14 +26,24 @@ ul{
 
 ul li{
     color: #333;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: rgba(32, 168, 32, 0.849);
 }
 
 .nav-btn{
-    padding: 10px 20px;
+    padding: 11px 22px;
     background-color: rgba(32, 168, 32, 0.849);
     color: #fff;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background-color: rgba(10, 139, 10, 0.849);
 }
 
 /* HERO SECTION  */
@@ -41,9 +51,9 @@ ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7rem 0;
+    padding: 3rem 0 12px 0;
     background: #333 url(./IMAGES/homeBg.png) no-repeat center center/cover;
-    height: 100vh;
+    height: 80vh;
     color: #fff;;
     text-align: center;
 }
@@ -75,7 +85,7 @@ ul li{
 
 .check1{
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
 }
 
@@ -85,22 +95,19 @@ ul li{
 } 
 
 input[type=text] {
-    
-        background-color: white;
-        background-image: url('./IMAGES/search-line.png');
-        background-position: 10px 10px;
-        background-repeat: no-repeat;
-        padding-left: 40px;
-     
-
+    background-color: white;
+    background-image: url('./IMAGES/search-line.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
     width: 30%;
+    padding: 15px 15px 15px 40px;
     border-radius: 30px;
-    border: none;
     transition: width 0.4s ease-in-out;
     background-color: transparent;
     border: #fff 1px solid;
     color: #fff;
     cursor: pointer;
+    margin: 10px 0 10px 0;
 }
   
 input[type=text]:focus {
@@ -119,5 +126,53 @@ input[type=text]:focus {
 }
 
 #star-img{
-    width: 25px;
+    width: 20px;
 }
+
+.hero-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 380;
+    margin: 6px 0 12px 0;
+}
+
+.popular-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.heroBox-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.hero-box{
+    padding: 12px ;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.popular-sec p{
+    margin: 10px 0 0 0;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: #333 1px solid;
+    width: 340px;
+    margin: 2rem auto 2rem auto;
+}
+
+.image-sec{
+    display: flex;
+    width: 90%;
+    margin: 0 3rem 2rem 3rem ;
+    justify-content: space-between;
+}
+
